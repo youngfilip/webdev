@@ -11,6 +11,35 @@
 
 <body>
   <div class="header">
+
+    <input type="checkbox" id="menu-toggle">
+
+    <div class="mobile-header">
+
+      <label for="menu-toggle" class="hamburger">
+        <img src="web-dev-imgs/menu.svg" alt="Menu">
+      </label>
+
+      <img src="web-dev-imgs/nav-img.svg" alt="Web.dev" class="mobile-logo">
+
+      <div class="mobile-icons">
+
+        <button class="icon-btn">
+          <img src="web-dev-imgs/download (1).svg" alt="Search">
+        </button>
+
+        <button class="icon-btn">
+          <img src="web-dev-imgs/icons8-light-mode-24.png" alt="Theme">
+        </button>
+
+        <a href="#" class="mobile-signin">
+          Sign in
+        </a>
+
+      </div>
+
+    </div>
+
     <div class="d-img">
       <img src="web-dev-imgs/nav-img.svg" alt="" srcset="">
     </div>
@@ -21,9 +50,9 @@
           <button>Resources</button>
         </div>
 
-        <a href="#">Discover</a>
+        <a href="#" class="how-t">Discover</a>
 
-        <a href="#">Baseline</a>
+        <a href="#" class="how-t">Baseline</a>
 
         <a href="#" class="how-to">How to use Baseline</a>
 
@@ -112,15 +141,17 @@
   <section>
     <div class="content3">
       <div class="content3-word">
-        <h3>Building a better <br> web, together</h3>
-        <div class="sentence">We want to help you build beautiful, accessible, fast, and secure <br> websites that work
-          cross-browser, and for all of your users. This <br> site is our home for content to help you on that journey,
-          written by <br> members of the Chrome team, and external experts who specialize <br> in web development topics
-          such as accessibility, performance, <br> design, and more.</div>
+        <h3>Building a better web, together</h3>
+        <div class="sentence">
+          We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for
+          all of your users. This site is our home for content to help you on that journey, written by members of the
+          Chrome team, and external experts who specialize in web development topics such as accessibility, performance,
+          design, and more.
+        </div>
       </div>
 
       <figure class="content3-img">
-        <img src="web-dev-imgs/imgi_2_home-blue.png" alt="" style="height: 300px;">
+        <img src="web-dev-imgs/imgi_2_home-blue.png" alt="">
       </figure>
 
     </div>
@@ -130,9 +161,8 @@
     <div class="image-cards">
 
       <div class="image-cards1">
-        <div>
-          <a href="#"><img src="web-dev-imgs/imgi_3_ai-feature.png" alt=""
-              style="height: 200px; width: 300px; border-radius: 20px;"></a>
+        <div class="image-cards1-img">
+          <a href="#"><img src="web-dev-imgs/imgi_3_ai-feature.png" alt="" class="image-cards-img"></a>
         </div>
 
         <div class="image-cards1-words">
@@ -153,8 +183,7 @@
 
       <div class="image-cards2">
         <div>
-          <a href="#"><img src="web-dev-imgs/imgi_4_inp-icon-only.jpg" alt=""
-              style="height: 200px; width: 300px; border-radius: 20px;"></a>
+          <a href="#"><img src="web-dev-imgs/imgi_4_inp-icon-only.jpg" alt="" class="image-cards-img"></a>
         </div>
 
         <div class="image-cards2-words">
@@ -175,8 +204,7 @@
 
       <div class="image-cards3">
         <div>
-          <a href="#"><img src="web-dev-imgs/imgi_5_hero-identity.png" alt=""
-              style="height: 200px; width: 300px; border-radius: 20px;"></a>
+          <a href="#"><img src="web-dev-imgs/imgi_5_hero-identity.png" alt="" class="image-cards-img"></a>
         </div>
 
         <div class="image-cards3-words">
@@ -204,11 +232,15 @@
       <div class="Explorea">
         <a href="#">Start exploring</a>
       </div>
-      <div class="explored">The web platform is a constantly evolving ecosystem of browser features and APIs for
-        developers to make <br>websites that are easy and delightful to use. These pages are pathways for you to dive
-        into each part of the web platform on web.dev—at your pace.</div>
+
+      <div class="explored">
+        The web platform is a constantly evolving ecosystem of browser features and APIs for
+        developers to make websites that are easy and delightful to use. These pages are pathways for you to dive
+        into each part of the web platform on web.dev—at your pace.
+      </div>
     </div>
   </section>
+
 
   <section>
     <div class="second-cards">
@@ -274,8 +306,10 @@
       <div class="Explorea">
         <a href="#">Start learning</a>
       </div>
-      <div class="explored">New to the web platform? We've got you covered! Dive into each layer, with courses curated
-        specifically for beginners to HTML, CSS, and JavaScript.</div>
+      <div class="explored">
+        New to the web platform? We've got you covered! Dive into each layer, with courses curated
+        specifically for beginners to HTML, CSS, and JavaScript
+      </div>
     </div>
   </section>
 
@@ -284,11 +318,10 @@
 
       <div class="image-cards1">
         <div>
-          <a href="#"><img src="web-dev-imgs/html_960.png" alt=""
-              style="height: 200px; width: 300px; border-radius: 20px;"></a>
+          <a href="#"><img src="web-dev-imgs/html_960.png" alt="" class="image-cards-img"></a>
         </div>
 
-        <div style="color: #274886;">
+        <div class="image-cards-course">
           <span>course</span>
         </div>
 
@@ -309,11 +342,10 @@
 
       <div class="image-cards2">
         <div>
-          <a href="#"><img src="web-dev-imgs/css_960.png" alt=""
-              style="height: 200px; width: 300px; border-radius: 20px;"></a>
+          <a href="#"><img src="web-dev-imgs/css_960.png" alt="" class="image-cards-img"></a>
         </div>
 
-        <div style="color: #274886;">
+        <div class="image-cards-course">
           <span>course</span>
         </div>
 
@@ -334,11 +366,10 @@
 
       <div class="image-cards3">
         <div>
-          <a href="#"><img src="web-dev-imgs/js_960.png" alt=""
-              style="height: 200px; width: 300px; border-radius: 20px;"></a>
+          <a href="#"><img src="web-dev-imgs/js_960.png" alt="" class="image-cards-img"></a>
         </div>
 
-        <div style="color: #274886;">
+        <div class="image-cards-course">
           <span>course</span>
         </div>
 
@@ -360,26 +391,28 @@
     </div>
   </section>
 
+
   <section>
     <div class="blog">
 
       <div class="blog1">
         <h3>Keep up on web development news</h3>
 
-        <div class="blog-d">Read our blog to learn the latest news in web development, including new web platform
-          features, updates to Baseline, AI, Core Web Vitals, and more.</div>
+        <div class="blog-d">
+          Read our blog to learn the latest news in web development, including new web platform
+          features, updates to Baseline, AI, Core Web Vitals, and more.
+        </div>
+
         <div class="blog-a">
           <a href="#">Read the Blog</a>
         </div>
       </div>
 
       <div class="blog-img">
-        <img src="web-dev-imgs/imgi_95_blog-header_480.png" alt="" style="height: 180px;">
+        <img src="web-dev-imgs/imgi_95_blog-header_480.png" alt="">
       </div>
 
     </div>
-
-
   </section>
 
   <section>
@@ -434,12 +467,12 @@
 
       <div class="second-baseline2">
         <div>
-          <h3><a href="#">Adapting typography to <br> user preference using CSS</a></h3>
+          <h3><a href="#">Adapting typography to user preference using CSS</a></h3>
           <div>Adapt a font to your users' preferences, so they're maximally comfortable reading your content.</div>
         </div>
 
         <div>
-          <h3><a href="#">New CSS color spaces and <br> functions in all major engines</a></h3>
+          <h3><a href="#">New CSS color spaces and functions in all major engines</a></h3>
           <div>All major engines now support the new CSS color spaces and functions. Find out how they can bring
             vibrancy to your designs.</div>
         </div>
@@ -458,7 +491,7 @@
   </section>
 
   <section>
-    <div class="baseline" style="height: 450px;">
+    <div class="baseline">
       <header class="baseline1">
         <div>
           <h2>Core Web Vitals</h2>
@@ -466,15 +499,15 @@
             other metrics.</div>
         </div>
 
-        <div class="baseline1-header-more" style="width: 250px;"><a href="#">Explore Core Web Vitals</a></div>
+        <div class="baseline1-header-more"><a href="#">Explore Core Web Vitals</a></div>
       </header>
 
 
       <div class="baseline2">
         <div>
-          <h3><a href="#">The most effective ways to <br> improve Core Web Vitals</a></h3>
-          <div>A collection of best practices for optimizing websites' <br> Core Web Vitals performance based on the
-            state of <br> the web.</div>
+          <h3><a href="#">The most effective ways to improve Core Web Vitals</a></h3>
+          <div>A collection of best practices for optimizing websites' Core Web Vitals performance based on the
+            state of the web.</div>
         </div>
 
         <div>
@@ -483,13 +516,13 @@
         </div>
 
         <div>
-          <h3><a href="#">Common misconceptions <br> about how to optimize LCP</a></h3>
-          <div>Explore common misconceptions about optimizing <br> Largest Contentful Paint by looking beyond image <br>
-            optimization and considering factors like Time to First <br> Byte and resource load delay.</div>
+          <h3><a href="#">Common misconceptions about how to optimize LCP</a></h3>
+          <div>Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image
+            optimization and considering factors like Time to First Byte and resource load delay.</div>
         </div>
 
         <div>
-          <h3><a href="#">Best practices for measuring <br> Web Vitals in the field</a></h3>
+          <h3><a href="#">Best practices for measuring Web Vitals in the field</a></h3>
           <div>Guidance for collecting and reporting Web Vitals <br> quickly and reliably.</div>
         </div>
       </div>
@@ -515,7 +548,7 @@
         </div>
 
         <div>
-          <h3><a href="#">TransformStream is now <br> supported cross browser.</a></h3>
+          <h3><a href="#">TransformStream is now supported cross browser.</a></h3>
           <div>Now that transform streams are supported in Safari, Firefox, and Chrome they are finally ready for prime
             time.</div>
         </div>
@@ -539,8 +572,8 @@
       <header class="baseline1">
         <div>
           <h2>Accessible for all</h2>
-          <div class="baseline1-get-up-to-speed">Learn how to make your sites more <br> accessible for people with
-            disabilities, <br> whether permanent, temporary, or <br> situational.</div>
+          <div class="baseline1-get-up-to-speed">Learn how to make your sites more accessible for people with
+            disabilities, whether permanent, temporary, or situational.</div>
         </div>
 
         <div class="baseline1-header-more"><a href="#">More on accessibility</a></div>
@@ -578,8 +611,8 @@
       <header class="second-baseline1">
         <div>
           <h2>Payments and identity</h2>
-          <div class="second-baseline1-get-up-to-speed">Find the latest techniques and best <br> practices for payments
-            and helping users <br> safely log into your sites and apps.</a>.</div>
+          <div class="second-baseline1-get-up-to-speed">Find the latest techniques and best practices for payments
+            and helping users safely log into your sites and apps.</a>.</div>
         </div>
 
         <div class="second-baseline1-header-more"><a href="#">More on identity</a></div>
@@ -691,9 +724,10 @@
     <ul class="foot">
       <li class="foot-img">
         <img src="web-dev-imgs/nav-img.svg" alt="">
-        <div>We want to help you build beautiful, accessible, fast, and secure websites that <br> work cross-browser, and for
-          all of your users. This site is our home for content <br> to help you on that journey, written by members of the
-          Chrome team, and <br> external experts.</div>
+        <div>
+          We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser,
+          and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts.
+        </div>
       </li>
 
       <li class="foot-contribute">
@@ -738,17 +772,19 @@
         </ul>
         <div class="header-content2-language">
 
+          <input type="checkbox" id="lang-toggle">
+
           <label for="lang-toggle" class="lang-label">
-            <img src="web-dev-imgs/icons8-globe-24.png" alt="" style="height:14px;">
+            <img src="web-dev-imgs/icons8-globe-24.png" alt="">
             <span>English</span>
             <span class="arrow">▾</span>
           </label>
 
-          <ul class="language-menu">
+         <!--  <ul class="language-menu">
             <li><a href="#">English</a></li>
             <li><a href="#">French</a></li>
             <li><a href="#">Spanish</a></li>
-          </ul>
+          </ul> -->
 
         </div>
       </nav>
